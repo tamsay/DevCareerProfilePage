@@ -252,18 +252,15 @@ h3 {
     #profileCol{ 
         width: 100%;
         height: auto;
-        border: 2px solid blue;
         padding: 0px 0px 0px 0px; 
     }
     #profile { 
         padding: 0px 20px 30px 20px; 
-        border: 1px solid red;
         margin: 0px;
     }
     #contactMe{
         padding: 0px 10px 10px 10px; 
         margin-bottom: 10px;
-        border: 1px solid yellow;
     }
     #profileName{
         display: block;
