@@ -1,0 +1,230 @@
+body{
+    display: flex;
+    color: #222222;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Circular';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    box-sizing: border-box;
+}
+#pictureCol{
+    width: 33.333%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(5, 185, 147);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.avatar img{
+    border: 5px #FFFFFF solid;
+    margin-top: 100px;
+    border-radius: 6px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+#rank{
+    margin-top: 15px;
+    background-color: white ;
+    color: #222;
+    line-height: 1.33em;
+    width: 300px;
+    padding: 15px 0px;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    font-size: 18px;
+    height: 55.2px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+}
+#rank:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+#profileCol{
+    height: 100vh;
+    width: 66.667%;
+}
+#navLink{
+    /* width: fit-content; */
+    text-align: right;
+    margin: 20px 20px 0px 0px;
+    font-weight: 300;
+    padding: 0px;
+    align-self: flex-end;
+}
+#createUserLink{
+    color: #fab700;
+    font-weight: bold;
+}
+#navLink a{
+    text-decoration: none;
+    color: #888;
+    outline: none;
+    transition: all 0.3s ease 0s;
+    background: transparent;
+}
+#profile{
+    background-color: white;
+    padding: 0px 100px 50px 100px;
+    margin-top: 60px;
+    box-sizing: border-box;
+}
+h1{
+    margin: .67em 0;
+    font-size: 30px;
+    line-height: 1.2em;
+}
+.mt-20{
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.tagsinput{
+    width: auto;
+    min-height: auto;
+    height: auto;
+    border: 0px #ddd solid;
+    margin-left: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    background: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #556270;
+    padding: 5px 5px 0 5px;
+    border-radius: 2px;
+    font-weight: 300;
+}
+.tag{
+    position: relative;
+    background: #556270;
+    display: block;
+    max-width: 100%;
+    word-wrap: break-word;
+    color: #fff;
+    padding: 5px 30px 5px 5px;
+    border-radius: 2px;
+    margin: 0 5px 5px 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+hr{
+    border: 2px #05B993 solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    display: block;
+}
+
+#contactMe{
+    padding: 0px 100px 50px 100px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+h3 {
+    font-size: 20px;
+    margin: 0px 0px 20px 0px;
+    line-height: 1.2em;
+    font-weight: 600;
+}
+.contactLinks{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.contactLinks > li:first-child{
+    padding-left: 0px;
+}
+.contactLinks > li {
+    display: inline-block;
+    padding-right: 5px;
+}
+.social-handle{
+    border-color: #3b5999;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0 5px 0 0;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #428bca;
+    background: transparent;
+    cursor: pointer;
+}
+.fab{
+    color: #3b5999;
+    font-family: 'Font Awesome 5 Brands';
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.fa-fw {
+    text-align: center;
+    width: 1.25em;
+}
+.fa-2x {
+    font-size: 2em;
+}
+.fa, .fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    text-align: right;
+    color: #888;
+    box-sizing: border-box;
+    text-align: right;
+}
+    .fa, .fas, .far, .fal, .fab {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.fa-arrow-left:before {
+    content: "\f060";
+}
+
+
+@media screen and (max-width: 480px){
+    body{
+        flex-direction: column;
+    }
+}
+@media (max-width:767px){
+    .logo{ padding-top:0px; }
+    .avatar img{ border:5px #FFFFFF solid; margin-top:0px; width: 100% !important; border-radius: 1px; background-size: contain !important; }
+    #navLink{ text-align: center !important; margin-top:20px; padding-bottom:20px; border-bottom: 1px #ddd solid; }
+    #navLink a{ color: #888 !important; }
+    #pictureCol{ background: #05B993 url('https://devcareer.io/images/bg.svg') right bottom; height:100% !important; }
+    #profileCol{ height:100% !important;  }
+    .info-box { padding: 0px 20px 50px 20px !important; }
+}
