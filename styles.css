@@ -26,6 +26,9 @@ body{
     vertical-align: middle;
     box-sizing: border-box;
 }
+#profileName{
+    display: none;
+}
 #rank{
     margin-top: 15px;
     background-color: white ;
@@ -214,17 +217,66 @@ h3 {
 }
 
 
-@media screen and (max-width: 480px){
+@media (max-width:767px){
     body{
         flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
     }
-}
-@media (max-width:767px){
     .logo{ padding-top:0px; }
-    .avatar img{ border:5px #FFFFFF solid; margin-top:0px; width: 100% !important; border-radius: 1px; background-size: contain !important; }
-    #navLink{ text-align: center !important; margin-top:20px; padding-bottom:20px; border-bottom: 1px #ddd solid; }
+    .avatar img{ 
+        border:5px #FFFFFF solid; 
+        margin: 0px; 
+        width: 100%;
+        height: auto; 
+        border-radius: 5px; 
+        margin-bottom: 10px;
+        }
+    #navLink{ 
+        text-align: center;
+        margin-top:20px; 
+        padding-bottom:0px; 
+        border-bottom: 1px #ddd solid; 
+        margin-bottom: 10px;
+
+    }
     #navLink a{ color: #888 !important; }
-    #pictureCol{ background: #05B993 url('https://devcareer.io/images/bg.svg') right bottom; height:100% !important; }
-    #profileCol{ height:100% !important;  }
-    .info-box { padding: 0px 20px 50px 20px !important; }
+    #pictureCol{ 
+        background: #05B993;
+         height:fit-content;
+         width: 100%;
+         margin: 0px;
+         padding-bottom: 25px;
+    }
+    #profileCol{ 
+        width: 100%;
+        height: auto;
+        border: 2px solid blue;
+        padding: 0px 0px 0px 0px; 
+    }
+    #profile { 
+        padding: 0px 20px 30px 20px; 
+        border: 1px solid red;
+        margin: 0px;
+    }
+    #contactMe{
+        padding: 0px 10px 10px 10px; 
+        margin-bottom: 10px;
+        border: 1px solid yellow;
+    }
+    #profileName{
+        display: block;
+        padding: 0px;
+        margin: 0px;
+    }
+    .hidden{
+        display: none;
+    }
+    h3{
+        font-size: 1.25em;
+        margin: 0px 0px 5px 0px;
+    }
+    
+  
 }
