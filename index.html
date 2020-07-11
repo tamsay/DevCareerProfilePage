@@ -3,13 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="toggler.css">
+    <link rel="stylesheet" href="darkStyles.css">
     <link rel="stylesheet" href="styles.css">
+
     <script defer="" src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
     <title>Longe Temitope - DevCareer</title>
 </head>
 <body>
     <div id='pictureCol'>
+
+        <div id="toggler" class="toggle-container">
+            <input type='checkbox' id='time' name="theme"/><label for='time'>Night</label>
+        </div>
+        
         
             <div class="avatar">
                 <img src="longe temitope.JPG" alt="profile pic">
@@ -19,10 +27,12 @@
     </div>
 
     <div id="profileCol">
-
+        
         <div id="navLink">
                 <a href="https://devcareer.io/account/signup"><i class="fa fa-arrow-left"></i>&nbsp; Create your <span id="createUserLink">DevCareer.io</span> page</a>            
         </div>
+
+        
 
         <div id="profile" class="info-box mt-60">
             
@@ -55,7 +65,7 @@
                 </li>
 
                 <li class="list-inline-item mb-3">
-                <a href="https://github.com/tamsay" class="social-handle" style="border-color: #333333;" target="_blank">
+                <a href="https://github.com/tamsay" class="github social-handle" style="border-color: #333333;" target="_blank">
                 <i class="fab fa-github fa-fw fa-2x" style="color: #333333;" title="github"></i>
                 </a>
                 </li>
@@ -89,4 +99,5 @@
         </div>
     </div>
 </body>
+<script src="script.js"></script>
 </html>

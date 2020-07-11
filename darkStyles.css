@@ -1,0 +1,92 @@
+  html.transition,
+  html.transition *,
+  html.transition *:before,
+  html.transition *:after {
+    transition: all 500ms !important;
+    transition-delay: -50ms !important;
+  }
+
+.dark-mode{
+    color: white !important;
+    /* background-color: black !important; */
+    background-color: #121212 !important;
+
+}
+
+/* Picture Column */
+.pictureColDark{
+    background-color: #1f1a24 !important;
+    background-color: #121212 !important;
+    background-color: rgba(75 , 178, 249, 0.08) !important; 
+    background-color: rgba(75 , 178, 249, 0.15) !important
+
+
+
+}
+.pictureColDark .avatar img{
+    border: 5px black none;
+}
+
+.pictureColDark #rank{
+    color: #121212 !important;
+    background-color: red;
+    background-color: #84c9fb;
+    background-color: #121212;
+    color: #84c9fb !important;
+
+}
+.pictureColDark #rank:hover{
+    background-color: black;
+    color: white !important;
+    transition: all 0.3s ease 0s;
+}
+
+
+/* Profile Column */
+.profileColDark{
+    background-color: rgba(75 , 178, 249, 0.08); 
+    /* background-color: #1f1a24 !important; */
+
+}
+.profileColDark #navLink a{
+    color: white !important;
+}
+.profileColDark #createUserLink{
+    color: #84c9fb;
+    font-weight: bold;
+}
+.profileColDark #profile{
+    background-color: rgba(75 , 178, 249,0); 
+}
+.profileColDark .tagsinput{
+    background: none;
+}
+.profileColDark .tag{
+    background-color: #121212;
+    color: #84c9fb;
+
+}
+.profileColDark hr{
+    border: 2px #121212 solid;
+}
+.profileColDark .social-handle{
+    border: 2px solid;
+    /* border-color: black !important; */
+    /* background-color: white !important; */
+}
+.profileColDark .fa-github{
+    color: white !important;
+}
+.profileColDark .github{
+     border-color: white !important;
+}
+
+
+@media (max-width:767px){
+    .pictureColDark #profileName{
+        display: block;
+        padding: 0px;
+        margin: 0px;
+        color: #84c9fb;
+    }
+}
