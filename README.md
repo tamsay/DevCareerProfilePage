@@ -13,7 +13,7 @@ The bulk of the work was done via HTML and CSS. Javascript was only used to perf
 <img src="desktop_dark.png" alt="desktop_dark" width="320"/>
 
 <img src="mobile_light.png" alt="mobile_light" width = "160"/>
-<img src="mobile_darl.png" alt="mobile_dark" width = "160"/>
+<img src="mobile_dark.png" alt="mobile_dark" width = "160"/>
 
 ## Live Demo
 
